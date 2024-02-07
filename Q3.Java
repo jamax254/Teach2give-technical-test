@@ -15,18 +15,18 @@ public class CapitalizeWords {
     {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
-        // Read user input
+        //for  Reading user input
         String input = scanner.nextLine();
-        // Call the method to capitalize words and store the result
+        //  for Calling the method to capitalize words and store the result
         String result = capitalizeWords(input);
-        // Print the result
+        //for Printing the result
         System.out.println("Result: " + result);
     }
 
     // Method to capitalize the first letter of each word in the input string
     private static String capitalizeWords(String input) 
     {
-        // Initialize a StringBuilder to store the modified string
+        // for initializing a StringBuilder to store the modified string
         StringBuilder sb = new StringBuilder(input.length());
         // Flag to indicate if the next character needs to be capitalized
         boolean capitalizeNext = true;
